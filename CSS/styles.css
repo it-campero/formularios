@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=News+Cycle&family=Roboto:wght@100&display=swap");
+html {
+  /* font-family: "IBM Plex Mono", monospace;
+  font-family: "News Cycle", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  background-color: #161717;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.google-btn {
+  background-color: #1a73e8;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.google-btn span {
+  color: white;
+  padding: 10px;
+}
+.google-btn picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 2px;
+}
+.google-btn:hover {
+  opacity: 85%;
+  cursor: pointer;
+}
+.google-btn picture > img {
+  width: 20px;
+  height: 20px;
+}
+.botonss {
+  display: flex;
+  gap: 10px;
+  align-self: flex-start;
+}
+.twitter-btn {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.twitter-btn:hover {
+  opacity: 75%;
+}
+.flex-separator {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.flex-separator hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid gray;
+}
+.section-input {
+  display: flex;
+  gap: 10px;
+}
+/* .section-input input{git add .
+ background-color: #1a73e8;
+ 
+} */
+
+label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+}
+label input {
+  width: 90%;
+  background-color: #212121;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14pt;
+}
+label input:focus {
+  background-color:  #454045;
+  transition: all 0.6s;
+  border: 1px solid rgb(28, 90, 43);
+  box-shadow: 0 0 9px green;
+}
+label input:hover {
+  background-color:  #454045;
+  transition: all 0.6s;
+  border: 1px solid rgb(28, 90, 43);
+  box-shadow: 0 0 9px green;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.check-label input[type="checkbox"] {
+  width: 20px;
+}
+.check-label {
+  display: flex;
+  flex-direction: row;
+}
+.btn-acount {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ea4c89;
+  color: white;
+}
+.btn-acount:hover {
+  opacity: 85%;
+}
